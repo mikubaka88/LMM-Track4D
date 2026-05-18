@@ -9,11 +9,12 @@
   <img src="https://img.shields.io/badge/Benchmark-526%20clips-0A84FF" alt="Benchmark badge" />
   <img src="https://img.shields.io/badge/Code-Coming%20Soon-F5A623" alt="Code badge" />
   <img src="https://img.shields.io/badge/Dataset-Coming%20Soon-F5A623" alt="Dataset badge" />
-  <a href="./demo.mp4"><img src="https://img.shields.io/badge/Demo-Available-2EA44F" alt="Demo badge" /></a>
+  <a href="./assets/demo.mp4"><img src="https://img.shields.io/badge/Demo-Available-2EA44F" alt="Demo badge" /></a>
   <img src="https://img.shields.io/badge/arXiv-Coming%20Soon-B1B5C0" alt="arXiv badge" />
 </p>
 
 <p align="center">
+  <a href="#abstract">Abstract</a> •
   <a href="#overview">Overview</a> •
   <a href="#at-a-glance">At a Glance</a> •
   <a href="#highlights">Highlights</a> •
@@ -23,6 +24,10 @@
   <a href="#release-status">Release Status</a> •
   <a href="#citation">Citation</a>
 </p>
+
+## Abstract
+
+Recent large multimodal models (LMMs) have become increasingly capable on image and video understanding, yet still struggle to sustain 4D continuous spatiotemporal dynamic reasoning. To study this capability gap, we formulate **trajectory-grounded multi-turn spatiotemporal dialogue**, a task in which a model must answer spatiotemporal queries while returning structured 3D target trajectories over an entire short clip or a specified segment of a longer clip. We further introduce **Track4D-Bench**, a benchmark with 526 clip-level dialogue samples spanning 23.5k frames and 7.5k object annotations, and propose **LMM-Track4D**, which combines **RTGE** (Ray-Time Geometry Encoding), a dedicated streaming state token **TRK** for long-horizon dynamic propagation, and **OSK-RA** decoding for stable 3D state estimation under occlusion and viewpoint variation. Experiments on Track4D-Bench show consistent improvements over strong baselines, suggesting that explicit dynamic state modeling is a useful design principle for eliciting 4D dynamic reasoning in LMMs.
 
 ## Overview
 
@@ -49,7 +54,7 @@ To address this setting, we introduce **trajectory-grounded multi-turn spatiotem
 ## Task Overview
 
 <p align="center">
-  <img src="./task.png" alt="Task overview for LMM-Track4D" width="96%" />
+  <img src="./assets/task.png" alt="Task overview for LMM-Track4D" width="96%" />
 </p>
 
 Trajectory-grounded multi-turn spatiotemporal dialogue requires the model to answer spatiotemporal queries while maintaining and updating explicit dynamic scene state throughout the interaction.
@@ -57,7 +62,7 @@ Trajectory-grounded multi-turn spatiotemporal dialogue requires the model to ans
 ## Architecture
 
 <p align="center">
-  <img src="./method.png" alt="Method overview for LMM-Track4D" width="96%" />
+  <img src="./assets/method.png" alt="Method overview for LMM-Track4D" width="96%" />
 </p>
 
 LMM-Track4D combines **RTGE** for ray-time geometric encoding, a persistent **TRK** token for cross-turn state propagation, and **OSK-RA** for structured query-conditioned 3D trajectory decoding.
@@ -65,13 +70,13 @@ LMM-Track4D combines **RTGE** for ray-time geometric encoding, a persistent **TR
 ## Demo
 
 <p align="center">
-  <a href="./demo.mp4">
-    <img src="./demo.png" alt="Demo preview for LMM-Track4D" width="96%" />
+  <a href="./assets/demo.mp4">
+    <img src="./assets/demo.png" alt="Demo preview for LMM-Track4D" width="96%" />
   </a>
 </p>
 
 <p align="center">
-  <a href="./demo.mp4"><strong>Open demo.mp4</strong></a>
+  <a href="./assets/demo.mp4"><strong>Open demo.mp4</strong></a>
 </p>
 
 The demo illustrates dialogue-grounded reasoning over evolving dynamic scene state together with structured trajectory prediction.
