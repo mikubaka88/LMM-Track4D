@@ -71,15 +71,15 @@ LMM-Track4D combines **RTGE** for ray-time geometric encoding, a persistent **TR
 
 <p align="center">
   <a href="./assets/demo.mp4">
-    <img src="./assets/demo.png" alt="Demo preview for LMM-Track4D" width="96%" />
+    <img src="./assets/demo.gif" alt="Animated demo for LMM-Track4D" width="96%" />
   </a>
 </p>
 
 <p align="center">
-  <a href="./assets/demo.mp4"><strong>Open demo.mp4</strong></a>
+  <a href="./assets/demo.mp4"><strong>Open full demo.mp4</strong></a>
 </p>
 
-The demo illustrates dialogue-grounded reasoning over evolving dynamic scene state together with structured trajectory prediction.
+The preview above is provided as a GIF for GitHub compatibility. Click it to open the original MP4 demo showing dialogue-grounded reasoning over evolving dynamic scene state together with structured trajectory prediction.
 
 ## Release Status
 
