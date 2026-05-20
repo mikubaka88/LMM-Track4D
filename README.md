@@ -68,6 +68,9 @@ Trajectory-grounded multi-turn spatiotemporal dialogue requires the model to ans
 LMM-Track4D combines **RTGE** for ray-time geometric encoding, a persistent **TRK** token for cross-turn state propagation, and **OSK-RA** for structured query-conditioned 3D trajectory decoding.
 
 ## Demo
+<p align="center">
+  <img src="./assets/demo.png" alt="Method overview for LMM-Track4D" width="96%" />
+</p>
 
 <p align="center">
   <a href="./assets/demo.mp4">
@@ -99,12 +102,14 @@ The preview above is provided as a GIF for GitHub compatibility. Click it to ope
 If you find this project useful, please cite the arXiv version:
 
 ```bibtex
-@article{lmmtrack4d2026,
-  title={LMM-Track4D: Eliciting 4D Dynamic Reasoning in Large Multimodal Models via Trajectory-Grounded Dialogue},
-  author={Author List},
-  journal={arXiv preprint arXiv:XXXX.XXXXX},
-  year={2026}
+@misc{li2026lmmtrack4deliciting4ddynamic,
+      title={LMM-Track4D: Eliciting 4D Dynamic Reasoning in LMMs via Trajectory-Grounded Dialogue}, 
+      author={Chaoyue Li and Yongxue Xu and Jie Feng and Jiayu Ding},
+      year={2026},
+      eprint={2605.19390},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2605.19390}, 
 }
 ```
 
-Please replace `Author List` and `XXXX.XXXXX` with the final public arXiv metadata once the preprint is available.
