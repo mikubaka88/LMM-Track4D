@@ -1,7 +1,7 @@
 # LMM-Track4D
 
 <p align="center">
-  <strong>Eliciting 4D Dynamic Reasoning in Large Multimodal Models via Trajectory-Grounded Dialogue</strong>
+  <strong>Eliciting 4D Dynamic Reasoning in LMMs via Trajectory-Grounded Dialogue</strong>
 </p>
 
 <p align="center">
@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/badge/Code-Coming%20Soon-F5A623" alt="Code badge" />
   <img src="https://img.shields.io/badge/Dataset-Coming%20Soon-F5A623" alt="Dataset badge" />
   <a href="./assets/demo.mp4"><img src="https://img.shields.io/badge/Demo-Available-2EA44F" alt="Demo badge" /></a>
-  <img src="https://img.shields.io/badge/arXiv-Coming%20Soon-B1B5C0" alt="arXiv badge" />
+  <a href="https://arxiv.org/abs/2605.19390"><img src="https://img.shields.io/badge/arXiv-2605.19390-B31B1B" alt="arXiv badge" /></a>
 </p>
 
 <p align="center">
@@ -99,7 +99,7 @@ The preview above is provided as a GIF for GitHub compatibility. Click it to ope
 
 ## Citation
 
-If you find this project useful, please cite the arXiv version:
+If you find this project useful, please cite:
 
 ```bibtex
 @misc{li2026lmmtrack4deliciting4ddynamic,
